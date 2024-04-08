@@ -58,7 +58,7 @@ function drawSnowman()
 }
 
 let y = 145;
-let dy = 10;
+let dy = 5;
 function drawHat()
 {
     ctx.fillStyle = 'black';
@@ -82,5 +82,5 @@ function myAnimation()
     { 
         y+=dy;
     }
-    setTimeout(()=>requestAnimationFrame(myAnimation),500);
+    setTimeout(()=>requestAnimationFrame(myAnimation),300);
 }
